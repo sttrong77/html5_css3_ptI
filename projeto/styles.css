@@ -1,59 +1,102 @@
-main h1{
-  font-size: 60px;
-  background-color: #851944;
-  color: #FFF;
-  text-align: center;
-  padding: 20px;
-  margin: 0px;
-}
-h2{
-  font-size: 40px;
-}
-h1, h2 {
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
 body {
-    background-color: #F2FFFC;
-    font-family: "Crimson Text", "Times New Roman", serif;
-    line-height: 1.5;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
 }
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1 {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+}
+
 p {
-    text-align: justify;
-    margin:20px 0px;
+	text-align: justify;
+	margin: 20px 0;
 }
 
 blockquote {
-    background-color: #D9E5E3;
-    padding: 16px;
-    border: 10px solid #C2CCCA;
-    width: 250px;
-    margin:0px;
-    box-sizing: border-box;
-    border-bottom-color: #333;
-   border-right-color: #FFF;
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
 aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-}
-
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-    text-decoration: none;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
 
 footer {
-    background-color: #000;
-    color: #F2FFFC;
+	background-color: #000;
+	color: #F2FFFC;
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+blockquote, aside, footer {
+    padding: 5px;
 }
 
 /*main div {
-    width: 720px;
-    margin: auto;
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
 }*/
 
-/*nav a {
-    color: #F2FFFC;
-}*/
+aside {
+	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+  display: block;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.icones-sociais li{
+  display: inline-block; /*Um ao lado do outro */
+}
+.social-rodape{
+  margin: 60px;
+}
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
