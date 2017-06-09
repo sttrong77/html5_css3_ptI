@@ -16,6 +16,7 @@ main h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -39,10 +40,12 @@ aside {
 footer {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
@@ -58,14 +61,22 @@ blockquote, aside, footer {
     padding: 5px;
 }
 
-/*main div {
+main div {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
-}*/
+}
 
 aside {
 	text-align: center;
+	width: 20%;
+	clear: right;
+}
+img,
+aside {
+    width: 15%;
+    float: right;
+		box-sizing: border-box;
 }
 
 aside h1 {
@@ -84,6 +95,7 @@ em {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 .icones-sociais li{
@@ -99,4 +111,31 @@ h2 {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+     background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
+.fiat{
+	float:right;
+}
+.petrobras{
+	float: left;
+}
+main{
+	float: left;
+	width: 85%
 }
